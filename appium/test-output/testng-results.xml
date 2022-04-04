@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-03T21:31:30 CEST" name="Suite" finished-at="2022-04-03T21:31:51 CEST" duration-ms="21288">
+  <suite started-at="2022-04-04T21:02:35 CEST" name="Default suite" finished-at="2022-04-04T21:02:57 CEST" duration-ms="22466">
     <groups>
     </groups>
-    <test started-at="2022-04-03T21:31:30 CEST" name="Test" finished-at="2022-04-03T21:31:51 CEST" duration-ms="21288">
-      <class name="Amazon.appium.SmoketestHomePage">
-        <test-method is-config="true" signature="init()[pri:0, instance:Amazon.appium.SmoketestHomePage@21282ed8]" started-at="2022-04-03T21:31:30 CEST" name="init" finished-at="2022-04-03T21:31:41 CEST" duration-ms="11470" status="PASS">
+    <test started-at="2022-04-04T21:02:35 CEST" name="Default test" finished-at="2022-04-04T21:02:57 CEST" duration-ms="22466">
+      <class name="Amazon.appium.AppTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:Amazon.appium.AppTest@21282ed8]" started-at="2022-04-04T21:02:35 CEST" name="init" finished-at="2022-04-04T21:02:48 CEST" duration-ms="12812" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="homePage_searchbar()[pri:1, instance:Amazon.appium.SmoketestHomePage@21282ed8]" started-at="2022-04-03T21:31:41 CEST" name="homePage_searchbar" finished-at="2022-04-03T21:31:46 CEST" duration-ms="4990" status="PASS">
+        <test-method signature="homePage_searchbar()[pri:1, instance:Amazon.appium.AppTest@21282ed8]" started-at="2022-04-04T21:02:48 CEST" name="homePage_searchbar" finished-at="2022-04-04T21:02:53 CEST" duration-ms="4962" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePage_searchbar -->
-        <test-method signature="homePage_ToolBar()[pri:2, instance:Amazon.appium.SmoketestHomePage@21282ed8]" started-at="2022-04-03T21:31:46 CEST" name="homePage_ToolBar" finished-at="2022-04-03T21:31:48 CEST" duration-ms="2035" status="PASS">
+        <test-method signature="homePage_ToolBar()[pri:2, instance:Amazon.appium.AppTest@21282ed8]" started-at="2022-04-04T21:02:53 CEST" name="homePage_ToolBar" finished-at="2022-04-04T21:02:56 CEST" duration-ms="2966" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePage_ToolBar -->
-        <test-method signature="homePage_ActionBar()[pri:3, instance:Amazon.appium.SmoketestHomePage@21282ed8]" started-at="2022-04-03T21:31:48 CEST" name="homePage_ActionBar" finished-at="2022-04-03T21:31:51 CEST" duration-ms="2690" status="PASS">
+        <test-method signature="homePage_ActionBar()[pri:3, instance:Amazon.appium.AppTest@21282ed8]" started-at="2022-04-04T21:02:56 CEST" name="homePage_ActionBar" finished-at="2022-04-04T21:02:57 CEST" duration-ms="1660" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePage_ActionBar -->
-      </class> <!-- Amazon.appium.SmoketestHomePage -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- Amazon.appium.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
