@@ -1,4 +1,4 @@
-package Amazon.appium;
+package Amazon.appium.testcases;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -14,8 +14,7 @@ import org.testng.annotations.Test;
 
 import io.appium.java_client.android.AndroidDriver;
 
-public class SmoketestHomePage {
-	
+public class TC1 {
 	private static AndroidDriver driver;
 	private static WebDriverWait wait;
 	

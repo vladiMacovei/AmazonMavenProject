@@ -11,6 +11,14 @@
           <include name="homePage_ActionBar"/>
         </methods>
       </class> <!-- Amazon.appium.SmoketestHomePage -->
+      <class name="Amazon.appium.testcases.TC1">
+        <methods>
+          <include name="homePage_ActionBar"/>
+          <include name="homePage_ToolBar"/>
+          <include name="homePage_searchbar"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- Amazon.appium.testcases.TC1 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

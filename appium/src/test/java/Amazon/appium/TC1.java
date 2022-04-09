@@ -1,5 +1,9 @@
 package Amazon.appium;
 
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -10,13 +14,7 @@ import org.testng.annotations.Test;
 
 import io.appium.java_client.android.AndroidDriver;
 
-
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.time.Duration;
-
-public class AppTest {
-    
+public class TC1 {
 	private static AndroidDriver driver;
 	private static WebDriverWait wait;
 	
